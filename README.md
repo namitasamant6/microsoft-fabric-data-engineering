@@ -64,15 +64,15 @@ Power BI      -->  4 page report via Direct Lake connection
 ### Bronze Layer - Data Ingestion
 - Ingested 7 raw CSV files into the Fabric Lakehouse
 - Used a Data Pipeline with Copy Activity to load raw files as-is
-- No transformations at this layer — raw data preserved
+- No transformations at this layer raw data preserved
 
 ### Silver Layer - Data Transformation
 Used PySpark in a Fabric Notebook to:
 - Join all 7 datasets into one master table (112,000 rows)
 - Engineer new columns:
-  - `total_revenue` — calculated order revenue
-  - `delivery_days` — days between order and delivery
-  - `is_late` — flag for orders delivered past estimated date
+  - `total_revenue` calculated order revenue
+  - `delivery_days` days between order and delivery
+  - `is_late` flag for orders delivered past estimated date
 - Cast correct data types for all columns
 - Filter and remove bad/null data
 
@@ -88,10 +88,10 @@ Built 5 Delta tables using Spark SQL:
 | review_score_distribution | Customer review score analysis |
 
 ### Power BI Report (4 pages - Direct Lake)
-- Revenue Trend — 2018 grew significantly vs 2017
-- Category Analysis — Health and Beauty top category at 1.5M
-- State Analysis — Sao Paulo dominates all Brazilian states
-- Customer Behaviour — 78% credit card payments, 55% five star reviews
+- Revenue Trend : 2018 grew significantly vs 2017
+- Category Analysis : Health and Beauty top category at 1.5M
+- State Analysis : Sao Paulo dominates all Brazilian states
+- Customer Behaviour : 8% credit card payments, 55% five star reviews
 
 ---
 
@@ -100,7 +100,7 @@ Built 5 Delta tables using Spark SQL:
 - Sao Paulo generates 5x more revenue than any other Brazilian state
 - 78% of all payments are made via credit card
 - 55% of customers give a 5 star review indicating high satisfaction
-- Office Furniture has the longest average delivery time at 20+ days — a supply chain opportunity
+- Office Furniture has the longest average delivery time at 20+ days a supply chain opportunity
 
 ---
 
