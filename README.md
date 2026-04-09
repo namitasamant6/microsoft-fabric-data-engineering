@@ -35,7 +35,7 @@ A complete end-to-end data engineering pipeline built as a personal side project
 ---
 
 ## Dataset
-- **Source:** Olist Brazilian E-Commerce Dataset (Kaggle)
+- **Source:** Olist Brazilian E-Commerce Dataset (Kaggle)(https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - **Size:** 100,000+ orders across 7 CSV files
 - **Total Revenue Analysed:** 15.74M
 - **Datasets included:**
