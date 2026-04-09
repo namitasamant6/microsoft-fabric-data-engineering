@@ -1,13 +1,13 @@
 [fabric_readme.md](https://github.com/user-attachments/files/26569961/fabric_readme.md)
 # End-to-End Data Engineering Project - Microsoft Fabric
 
-![Bronze Layer Pipeline](pipeline1.png)
-![Silver Layer Notebook](notebook.png)
-![Gold Layer Tables](goldlayer.png)
-![Power BI Report](report1.png)
-![Power BI Report](report2.png)
-![Power BI Report](report3.png)
-![Power BI Report](report4.png)
+![Bronze Layer Pipeline](screenshots/pipeline1.png)
+![Silver Layer Notebook](screenshots/notebook.png)
+![Gold Layer Tables](screenshots/goldlayer.png)
+![Power BI Report Page 1](screenshots/report1.png)
+![Power BI Report Page 2](screenshots/report2.png)
+![Power BI Report Page 3](screenshots/report3.png)
+![Power BI Report Page 4](screenshots/report4.png)
 
 ## Project Overview
 A complete end-to-end data engineering pipeline built as a personal side project using Microsoft Fabric. This project covers data ingestion, transformation, modelling and reporting all within a single unified platform using the Medallion Architecture (Bronze, Silver, Gold).
