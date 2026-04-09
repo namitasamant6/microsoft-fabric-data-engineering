@@ -1,12 +1,19 @@
 [fabric_readme.md](https://github.com/user-attachments/files/26569961/fabric_readme.md)
 # End-to-End Data Engineering Project - Microsoft Fabric
 
+Bronze Layer - Data Pipeline
 ![Bronze Layer Pipeline](screenshots/pipeline1.png)
+Silver Layer - PySpark Transformation Notebook
 ![Silver Layer Notebook](screenshots/notebook.png)
+Gold Layer - Delta Tables
 ![Gold Layer Tables](screenshots/goldlayer.png)
+Power BI Report - Revenue Trend
 ![Power BI Report Page 1](screenshots/report1.png)
+Power BI Report - Category Analysis
 ![Power BI Report Page 2](screenshots/report2.png)
+Power BI Report - State Analysis
 ![Power BI Report Page 3](screenshots/report3.png)
+Power BI Report - Customer Behaviour
 ![Power BI Report Page 4](screenshots/report4.png)
 
 ## Project Overview
