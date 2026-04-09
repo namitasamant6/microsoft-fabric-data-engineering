@@ -1,7 +1,7 @@
 [fabric_readme.md](https://github.com/user-attachments/files/26569961/fabric_readme.md)
 # End-to-End Data Engineering Project - Microsoft Fabric
 
-![Bronze Layer Pipeline](bronze_pipeline.png)
+![Bronze Layer Pipeline](pipeline.png)
 ![Silver Layer Notebook](silver_notebook.png)
 ![Gold Layer Tables](gold_tables.png)
 ![Power BI Report](powerbi_report.png)
