@@ -3,7 +3,7 @@
 
 ![Bronze Layer Pipeline](pipeline.png)
 ![Silver Layer Notebook](silver_notebook.png)
-![Gold Layer Tables](gold_tables.png)
+![Gold Layer Tables](goldlayer.png)
 ![Power BI Report](powerbi_report.png)
 
 ## Project Overview
